@@ -138,8 +138,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section__subtitle {
-    margin: 0;
-    font-size: var(--fs-h3);
+    ;
 }
 
 .section__subtitle--intro,
@@ -148,6 +147,16 @@ h3 { font-size: var(--fs-h3) }
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+}
+
+.section__subtitle--contact {
+    padding: .25em 1em;
+    border-top: 2px solid var(--clr-accent);
+    border-bottom: 2px solid var(--clr-accent);
+    font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+    margin: 0;
+    font-size: 1rem;
 }
 
 .section__subtitle--work {
