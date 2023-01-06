@@ -50,18 +50,41 @@
       <!-- Write ups -->
       <div class="about-me__body" id="about">
         
-        <p>I like to describe myself as a creative web developer with a flair for creating elegant solutions in the
-          least amount of time. With exceptional collaborative and interpersonal skills; a dynamic team player with well
-          developed written and verbal communication abilities.</p>
-
-        <p> I am very passionate about software architecture, and this passion has led me to explore a lot. This
-          adventurous nature of mine has given me the opportunity to be Proficient in UI/UX design, front-end and
-          Back-end web development via html/CSS, Javascript, PHP and other programming as languages illustrated on the
-          tab by the left. Also conversant with predominant design software like Adobe Creative Suite which includes:
-          Photoshop, Illustrator and the likes as well as Corel Draw Graphics Suite. An innovative thinker with
-          experience in Digital Marketing via Google ads and social media content. Always open to learning new and
-          improved ways of doing even the most routine of tasks </p>
-      </div>
+      <form id="contact_form" action="mailto:youceeinnovations@gmail.com" method="get" enctype="text/plain">
+          
+      <label for="firstName" style="font-weight: bold;">
+      First name:</label><br>
+      <input type="text" id="firstName" name="firstName"
+      placeholder="your name..." required><br>
+          
+      <label for="lastName" style="font-weight: bold;">
+        Last name:</label><br>
+      <input type="text" id="lastName" name="lastName"
+      placeholder="your last name..." ><br>
+          
+      <label for="email" style="font-weight: bold;">
+        Email:</label><br>
+      <input type="email" id="email" name="email"
+      placeholder="Enter your email..." required><br>
+          
+      <label for="phone"style="font-weight: bold;">
+        Phone:</label><br>
+      <input type="tel" id="phone" name="phone" 
+      placeholder="your phone number..." required><br>
+          
+      <label for="message"style="font-weight: bold;">
+        Send us a message:
+      </label><br>
+      <textarea id="message" name="message" rows="4" 
+          style=" width:100%; 
+              font: 300 1rem 'Source Code Pro', monospace;                  color: #303030;" 
+              placeholder="Enter text here..." >
+      </textarea>
+      <br>
+          
+      <input type="submit" value="Submit">
+      </form>
+    </div>
 
       <!-- My smiling picture -->
       <img src="Contact_me.jpeg" alt="another picture of me" class="about-me__img">
